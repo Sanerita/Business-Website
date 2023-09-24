@@ -1,12 +1,18 @@
 import React from 'react'
 import './styles.css'
+// import { BrowserRouter } from 'react-router-dom'
+import Navbar from './components/navbar.jsx'
 
-function App() {
+
+const App = () => {
   
 
   return (
     <div>
-      <navbar/>
+      
+      <navbar />
+    
+
       <HomePage/>
       <Shop/>
       <AboutPage/>
