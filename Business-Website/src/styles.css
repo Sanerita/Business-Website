@@ -12,7 +12,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
-  background-color: #fcfcfc;
+  /* background-color: #fcfcfc; */
+  color: #fff;
+    background-color: #333;
 }
 
 .container {
@@ -30,7 +32,10 @@ body {
   background-color: #fef7e5;
   position: relative;
 }
-
+.logo{
+    color: #111;
+    margin-left: 0%;
+}
 
 
 .nav-elements ul {

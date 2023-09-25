@@ -1,6 +1,6 @@
 import React from 'react'
 import './styles.css'
-// import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 import Navbar from './components/navbar.jsx'
 
 
@@ -10,13 +10,15 @@ const App = () => {
   return (
     <div>
       
-      <navbar />
+      <BrowserRouter>
+      <Navbar />
+    </BrowserRouter>
     
 
-      <HomePage/>
+      {/* <HomePage/>
       <Shop/>
       <AboutPage/>
-      <ContactPage/>
+      <ContactPage/> */}
       
     </div>
   )
