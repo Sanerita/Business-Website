@@ -61,7 +61,7 @@ buttons.forEach(button => button.addEventListener('click', handleClick));
     <div className='shop'>
        <h2>Shop</h2>
 
-       <div class="wrapper">
+       <div class="table">
 
 <h2 className='our-menu'>Our Menu</h2>
 
@@ -192,7 +192,7 @@ buttons.forEach(button => button.addEventListener('click', handleClick));
  {/* End drinks Menu  */}
 
 </div>
- {/* End Wrapper  */}
+ {/* End table  */}
        
 
     </div>
