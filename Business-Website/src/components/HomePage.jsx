@@ -3,8 +3,13 @@ import React from 'react';
 
 function HomePage() {
   return (
-    <div>
-      {/* Your component content here */}
+    <div className='home'>
+      <div className='box maroon'>
+        Box 1
+      </div>
+      <div className='box dark-green'>
+        Box 2
+      </div>
     </div>
   );
 }

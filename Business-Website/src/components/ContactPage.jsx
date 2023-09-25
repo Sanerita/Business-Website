@@ -3,8 +3,10 @@ import React from 'react';
 
 function ContactPage() {
   return (
-    <div>
-      {/* Your component content here */}
+    <div className='contact'>
+      <h2>Contact Us</h2>
+
+      
     </div>
   );
 }
