@@ -69,14 +69,26 @@ body {
 
 /* HomePage.css */
 .home {
+  flex-direction: column; /* Stack elements vertically */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    text-align: center; 
   }
+
+  .welcome-text h1{
+    font-size: 24px; 
+    
+  }
+
+  .box-container {
+    display: flex; /* Display boxes in a row */
+  }
+
   
   .box {
-    width: 150px;
+    width: 250px;
     height: 150px;
     display: flex;
     justify-content: center;
@@ -85,6 +97,30 @@ body {
     font-size: 18px;
     font-weight: bold;
     margin: 50px;
+    flex-direction: column;
+    border: 1px solid #000;
+  
+  }
+
+  
+
+  
+.line {
+  width: 100%;
+  margin: 5px 0; /* Add margin to create space between lines */
+  border: 1px solid #fff; /* Style the horizontal lines */
+
+}
+
+.box-title{
+
+  font-size: large;
+}
+
+ .box-content {
+    height: auto;
+    flex-grow: 1;
+    font-size: medium;
   }
   
   .maroon {
@@ -95,7 +131,7 @@ body {
   }
   
   .dark-green {
-    background-color: darkgreen;
+    background-color: rgb(3, 73, 3);
     color: white;
     border-radius: 5%;
     color: #111;
@@ -110,8 +146,11 @@ body {
     border-radius: 10px;
     color: #111;
     text-align: center;
+    font: 20px cookie, cursive;
   }
   
+ 
+
   .about {
    height: 100vh;
    color: #111;
@@ -119,6 +158,8 @@ body {
    padding: 20px;
    border-radius: 10px;
    text-align: center;
+   font: 20px cookie, cursive;
+
   }
 
   .contact {
@@ -128,9 +169,105 @@ body {
   padding: 20px;
   border-radius: 10px;
   text-align: center;
-    
+  font: 20px cookie, cursive;
   }
 
+/* --------------------------------------------------------------------- */
 
-
+:root {
+  --wesbos: #ffc600;
+}
+.menu {
+  display: none;
+}
+.menu--is-visible {
+  display: grid;
+}
+@media (min-width: 768px) {
+  .menu {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 80px;
+ }
+}
+.item__header {
+  display: flex;
+  align-items: baseline;
+}
+.item__title {
+  font: 35px cookie, cursive;
+  color: var(--wesbos);
+  letter-spacing: 2px;
+  margin: 0;
+}
+.item__dots {
+  flex: 1;
+  border-bottom: 1px dashed #aaa;
+  margin: 0 15px;
+}
+.item__price {
+  color: var(--wesbos);
+  font: 31px cookie, cursive;
+}
+.item__description {
+  margin-bottom: 40px;
+}
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 35px;
+}
+@media (min-width: 768px) {
+  .buttons-container {
+    margin-bottom: 60px;
+ }
+}
+.button {
+  margin: 5px 15px;
+  padding: 10px 20px;
+  border: 1px solid var(--wesbos);
+  border-radius: 3px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.highlight {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  background: var(--wesbos);
+  border-radius: 3px;
+  z-index: -1;
+  transition: 0.24s;
+}
+* {
+  box-sizing: border-box;
+}
+/* body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://i.imgur.com/er8DtBW.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #fff;
+} */
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://i.imgur.com/er8DtBW.jpg");
+}
+.our-menu h2 {
+  display: inline-block;
+  border-bottom: 4px solid var(--wesbos);
+  margin-top: 0;
+  font: 50px cookie, cursive;
+}
 
