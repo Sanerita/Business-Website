@@ -1,16 +1,14 @@
-// import React from 'react';
+import React from 'react';
 
 
-// function ContactPage() {
-//   return (
-//     <div className='contact'>
-//       <h2>Contact Us</h2>
+function ContactPage() {
+  return (
+    <div className='contact'>
+      <h2>Contact Us</h2>
 
       
-//     </div>
-//   );
-// }
+    </div>
+  );
+}
 
-// export default ContactPage;
-
-
+export default ContactPage;
