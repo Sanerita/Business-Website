@@ -140,7 +140,7 @@ body {
   /*-----------------------------------------------------------  */
 
 .shop {
-    height: 110vh;
+    height: 115vh;
     background-color: rgba(255, 255, 255, 0.8); 
     padding: 20px;
     border-radius: 10px;
@@ -242,7 +242,7 @@ body {
  
 /* AboutPage.css */
   .about {
-   height: 110vh;
+   height: 115vh;
    color: #111;
    background-color: rgba(255, 255, 255, 0.8); 
    padding: 20px;
@@ -271,7 +271,7 @@ body {
 
 
   .contact {
-  height: 110vh;
+  height: 115vh;
   color: #111;
   background-color: rgba(255, 255, 255, 0.8); 
   padding: 20px;
