@@ -227,6 +227,7 @@ body {
     margin: 0 auto;
     padding: 20px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://i.imgur.com/er8DtBW.jpg");
+    border-radius: 5%;
   }
   .our-menu h2 {
     display: inline-block;

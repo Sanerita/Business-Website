@@ -66,9 +66,9 @@ function Shop() {
 <h2 className='our-menu'>Our Menu</h2>
 
 <div className="buttons-container">
-  <a href="#pizzaMenu" className="button button--is-active" data-target="pizzaMenu">Pizzas</a>
-  <a href="#burgerMenu" className="button" data-target="burgerMenu">Burgers</a>
-  <a href="#drinksMenu" className="button" data-target="drinksMenu">Drinks</a>
+  <a href="pizzaMenu" className="button button--is-active" data-target="pizzaMenu">Pizzas</a>
+  <a href="burgerMenu" className="button" data-target="burgerMenu">Burgers</a>
+  <a href="drinksMenu" className="button" data-target="drinksMenu">Drinks</a>
 </div>
 
 {/* Start Pizza Menu  */}
