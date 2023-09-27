@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function Shop() {
+const Shop = () => {
 
   const buttons = document.querySelectorAll('.button');
   const menus = document.querySelectorAll('.menu');
@@ -61,14 +61,14 @@ function Shop() {
     <div className='shop'>
        <h2>Shop</h2>
 
-       <div class="wrapper">
+       <div className="wrapper">
 
 <h2 className='our-menu'>Our Menu</h2>
 
 <div className="buttons-container">
-  <a href="#" className="button button--is-active" data-target="pizzaMenu">Pizzas</a>
-  <a href="#" className="button" data-target="burgerMenu">Burgers</a>
-  <a href="#" className="button" data-target="drinksMenu">Drinks</a>
+  <a href="pizzaMenu" className="button button--is-active" data-target="pizzaMenu">Pizzas</a>
+  <a href="burgerMenu" className="button" data-target="burgerMenu">Burgers</a>
+  <a href="drinksMenu" className="button" data-target="drinksMenu">Drinks</a>
 </div>
 
 {/* Start Pizza Menu  */}

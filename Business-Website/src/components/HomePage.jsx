@@ -1,8 +1,9 @@
 import React from 'react';
 
 
-function HomePage() {
+const HomePage = () => {
   return (
+  
     <div className='home'>
 
   <h1 className='welcome-text'>Welome to the home of best Pizza & Burgers in town. </h1>
@@ -29,7 +30,7 @@ function HomePage() {
       </div>
       </div>
     </div>
-  );
+    );
 }
 
 export default HomePage;
