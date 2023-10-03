@@ -1,8 +1,9 @@
 import React from 'react';
-
+import { useState } from "react";
 
 const Navbar = () => {
 
+  const [isNavExpanded, setIsNavExpanded] = useState(false)
 
   return (
     <nav className="navbar">
@@ -44,16 +45,16 @@ const Navbar = () => {
         <div className="nav-elements">
           <ul>
           <li>
-              <a href="#HomePage">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li>
-              <a href="#Shop">Shop</a>
+              <a href="#shop">Shop</a>
             </li>
             <li>
-              <a href="#AboutPage">About</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a href="#ContactPage">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
             
           </ul>

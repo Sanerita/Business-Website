@@ -3,7 +3,7 @@ import Smilingchef from '../assets/Smiling-chef.png'
 
 const AboutPage = () => {
   return (
-    
+    <div id='about'>
     <div className='about'>
     <h2>About Us</h2>
     <div className="about-image">
@@ -11,7 +11,7 @@ const AboutPage = () => {
       </div>
 
       
-    
+      </div>
     </div>
      );
 }

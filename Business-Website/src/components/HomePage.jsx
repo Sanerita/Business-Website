@@ -3,7 +3,7 @@ import React from 'react';
 
 const HomePage = () => {
   return (
-  
+  <div id='home'>
     <div className='home'>
 
   <h1 className='welcome-text'>Welome to the home of best Pizza & Burgers in town. </h1>
@@ -26,7 +26,7 @@ const HomePage = () => {
         Buy any large classic pizza and get 1 burger meal for free on sunday's
         </div>
     
-
+        </div>
       </div>
       </div>
     </div>
