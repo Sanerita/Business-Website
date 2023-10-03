@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom'
+import React from 'react';
 
 
 const Navbar = () => {
@@ -11,22 +11,53 @@ const Navbar = () => {
         <div className="logo">
           <h2>NEZZI'S</h2>
         </div>
+        <button
+        className="hamburger"
+        onClick={() => {
+          setIsNavExpanded(!isNavExpanded);
+        }}
+      >
+          {/* icon from heroicons.com */}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-5 w-5"
+            viewBox="0 0 20 20"
+            fill="white"
+          >
+            <path
+              fillRule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+              clipRule="evenodd"
+            />
+          </svg>
+          
+        </button>
+        <div
+        className={
+          isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
+        }
+      >
+
+
+        
 
         <div className="nav-elements">
           <ul>
-            <li>
-              <NavLink to="/HomePage">Home</NavLink>
+          <li>
+              <a href="#HomePage">Home</a>
             </li>
             <li>
-              <NavLink to="/Shop">Shop</NavLink>
+              <a href="#Shop">Shop</a>
             </li>
             <li>
-              <NavLink to="/AboutPage">About</NavLink>
+              <a href="#AboutPage">About</a>
             </li>
             <li>
-              <NavLink to="/ContactPage">Contact</NavLink>
+              <a href="#ContactPage">Contact</a>
             </li>
+            
           </ul>
+        </div>
         </div>
       </div>
     </nav>
