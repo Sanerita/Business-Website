@@ -199,16 +199,16 @@ body {
   
   .maroon {
     background-color: maroon;
-    color: #111;
+    color: #b1afaf;
     border-radius: 5%;
     
   }
   
   .dark-green {
     background-color: rgb(3, 73, 3);
-    color: white;
+    color: #b1afaf;
     border-radius: 5%;
-    color: #111;
+   
 
   }
   /*-----------------------------------------------------------  */
@@ -469,6 +469,33 @@ padding: 20px 15px 0;
 
 /* --------------------------------------------------------------------- */
 
+.scroll-to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 999;
+}
+
+.scroll-to-top-button.visible {
+  opacity: 1;
+}
+
+.scroll-to-top-button button {
+  background-color: rgb(3, 73, 3);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.scroll-to-top-button button:hover {
+  background-color: rgb(22, 128, 22);
+}
 
 
 

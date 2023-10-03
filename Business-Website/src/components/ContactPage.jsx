@@ -2,6 +2,7 @@ import React from 'react';
 
 
 const ContactPage = () => {
+  
   return (
  <div id='contact'>
     <div className='contact'>
