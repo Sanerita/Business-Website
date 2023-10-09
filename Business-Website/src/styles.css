@@ -338,15 +338,63 @@ body {
 }
 
 .about-image img {
-  height: 50vh;
-  width: 50vh;
+  height: 30vh;
+  width: 30vh;
   display: block;
   margin: 0 auto; /* Center the image horizontally */
 }
 
+/* Newsletter */
+#newsletter{
+  padding:15px;
+  color:#ffffff;
+  background:rgb(3, 73, 3);
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  
+}
+
+#newsletter h1{
+  float:left;
+}
+
+#newsletter form {
+  float:right;
+  margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+
+#newsletter button, .quote button{
+  display:block;
+  width:100%;
+}
+
+#newsletter form input[type="email"], .quote input, .quote textarea{
+  width:100%;
+  margin-bottom:5px;
+}
+
+.news-container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+.button_1{
+  height:38px;
+  background:#fda40b;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
 
 
-
+/* -------------------------------------end of about-------------------------- */
   .contact {
   height: 115vh;
   color: #111;
